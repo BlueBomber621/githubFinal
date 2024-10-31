@@ -44,4 +44,17 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
+  background-color: darkslateblue;
+  color: aliceblue;
+  padding: 0 80px;
+}
+
+p,
+li {
+  color: #dbe2e9;
+}
+
+.main-area,
+header {
+  text-shadow: 0 0 1px cyan;
 }
