@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  position: fixed;
+  height: 80px;
+  background-color: navy;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.header-divider {
+  min-height: 80px;
+}
+
+footer {
+  bottom: 0px;
+  position: fixed;
+  height: 80px;
+  background-color: navy;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.footer-divider {
+  min-height: 80px;
+}
+
+.main-area {
+  height: 747px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
